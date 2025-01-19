@@ -12,7 +12,7 @@ The BERT Search Engine uses **pre-trained BERT embeddings** to provide a semanti
 ### **Implementation**
 1. **Text Preprocessing**:
    - Tokenizes documents and queries using a BERT tokenizer.
-   - Converts text into embeddings using a pre-trained BERT model (e.g., `bert-base-uncased`).
+   - Converts text into embeddings using a pre-trained BERT model.
 
 2. **Embedding Storage**:
    - Generates and stores document embeddings in a vector database or file system for efficient retrieval.
