@@ -1,4 +1,4 @@
-# IR-final-project
+# Information Retrieval Document Search Engine 
 ## **BERT Search Engine**
 
 ### **Project Description**
