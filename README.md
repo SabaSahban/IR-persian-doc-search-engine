@@ -1,31 +1,3 @@
-# Information Retrieval Document Search Engine 
-## **BERT Search Engine**
-
-### **Project Description**
-The BERT Search Engine uses **pre-trained BERT embeddings** to provide a semantic-based document retrieval system. Unlike traditional keyword-based methods, it understands the context and relationships between words, making it highly effective for complex and ambiguous queries.
-
-### **Features**
-- **Semantic Understanding**: Leverages BERT embeddings to capture the meaning of text.
-- **Contextual Search**: Finds documents relevant to the context of the query, not just keyword matches.
-- **Ranking by Similarity**: Uses cosine similarity to rank documents based on their semantic proximity to the query.
-
-### **Implementation**
-1. **Text Preprocessing**:
-   - Tokenizes documents and queries using a BERT tokenizer.
-   - Converts text into embeddings using a pre-trained BERT model.
-
-2. **Embedding Storage**:
-   - Generates and stores document embeddings in a vector database or file system for efficient retrieval.
-
-3. **Query Processing**:
-   - Processes user queries into embeddings.
-   - Computes similarity between the query embedding and document embeddings.
-
-4. **Result Ranking**:
-   - Ranks results based on cosine similarity scores.
-
----
-
 ## **TF-IDF Search Engine**
 
 ### **Project Description**
